@@ -1,0 +1,189 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    background: url("../image/hb.png") center top no-repeat;
+    background-size: cover;
+}
+.header .navbar-expand-lg .container-fluid{
+    padding: 0px 100px 0px;
+  }
+.header .navbar-expand-lg .container-fluid .navbar-brand{
+    width:170px;
+    margin: -12px 10px 10px 0px;
+}
+.testimonials .owl-carousel .item .banner{
+    background: url("../image/si.png") center bottom no-repeat;
+    width: 100%;
+    height: 705px;
+    padding: 200px 0px 20px 35px;
+}
+.testimonials .owl-carousel .item .banner .container h1{
+    font-family: 'Roboto', sans-serif;
+    font-size:60px;
+    font-weight:600;
+    color: white;
+    padding: 0px 0px 22px 0px;
+}
+.testimonials .owl-carousel .item  .banner h6{
+    font-family: 'Roboto', sans-serif;
+    font-size:15px;
+    font-weight:600;
+    color: white;
+    padding: 0px 0px 22px 0px;
+}
+.testimonials .owl-carousel .item  .inner-btn .btn-primary{
+    font-family: 'Roboto', sans-serif;
+    font-size:15px; 
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color:black;
+    background:white;
+    border-color: white;
+    border-radius: 1px;
+    transition: .5s;
+    height: 35px;
+    width: 190px;
+
+}
+.testimonials .owl-carousel .inner-btn .btn-primary:hover{
+    background:transparent;
+    border:1px solid black;
+    color:black;
+}
+.owl-theme .owl-nav.disabled+.owl-dots {
+    position: absolute;
+    bottom: -0.5%;
+    left: 8.4%;
+    height: 35px;
+    width: 190px;
+}
+.welcome{
+    text-align: center;
+}
+.welcome .G2text h6{
+        margin: 42px;
+        color: #8e8e8e;
+}
+
+
+
+.price-plan{
+    padding: 140px;
+}
+
+.inner-price{
+    width: 100%;
+    font-size: 32px;
+    border: 1px solid #333333;
+    text-align: center;
+}
+.inner-price:hover{
+    width: 100%;
+    font-size: 32px;
+    border: 3px solid #333333;
+    text-align: center;
+
+}
+.inner-price .price-head{
+    width: 100%;
+    padding: 25px 0px;
+    color: #333333;
+}
+.inner-price .price-head h2{
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0px;
+    color: #333333;
+
+}
+.inner-price .main-price{
+    width: 100%;
+    padding: 35px 0px;
+    border-bottom: 1px solid #333333;
+    transition: 1s;
+}
+.inner-price .main-price h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 90px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0px;
+}
+.inner-price .main-price h1 sup{
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    top: -30px;
+}
+.inner-price .main-price p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333333;
+    margin: 0px;
+}
+.inner-price .price-content{
+    width: 100%;
+    padding: 40px 45px 30px;
+    
+}
+.inner-price .price-content p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #8e8e8e;
+}
+
+.inner-price .price-content .btn-primary{
+    font-family: 'Roboto', sans-serif;
+    padding: 12px 40px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    background: white;
+    color: #8e8e8e;
+    border: none;
+     transition: 0s;
+}
+.inner-price .price-content .btn-primary:hover{
+    font-family: 'Roboto', sans-serif;
+
+    background: white;
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+
+}
+
+.inner-price:hover .price-content .btn-primary{
+    color: #333333;
+    transition: 0s;
+}
+
+    
+
+                
+
